@@ -1,0 +1,93 @@
+<!--
+
+The MIT License (MIT) Copyright (c) 2014 IOberry
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in
+all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+THE SOFTWARE.
+
+
+//-->
+
+
+<!DOCTYPE html>
+<html lang="en"><!--- manifest="data.appcache"> //-->
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
+<!--<meta name="viewport" content="width=device-width, initial-scale=1">//-->
+
+<script type="text/javascript" src="./libs/jquery.js"></script>
+<script type="text/javascript" src="./libs/RGraph.common.core.js"></script>
+<script type="text/javascript" src="./libs/RGraph.common.dynamic.js"></script>
+<script type="text/javascript" src="./libs/RGraph.common.tooltips.js"></script>
+<script type="text/javascript" src="./libs/RGraph.common.effects.js"></script>
+<script type="text/javascript" src="./libs/RGraph.pie.js"></script>
+<script type="text/javascript" src="./libs/Chart.min.js"></script>
+<script type="text/javascript" src="./EngineJS/calenderdata.js"></script>
+<script type="text/javascript" src="./EngineJS/about.info.js"></script>
+
+
+<script type="text/javascript">
+var homeVar=1,GlobalBackButtonDevice = 10;
+</script>
+<link rel="stylesheet" type="text/css" href="./EngineCSS/berrystyle.css"/>
+</head>
+<body id="ioberry" class="marginAuto w100p zleft ztop">
+
+<div id="HeaderID"></div>
+
+<div id="BGIM"><div class="backgroundImage fixed h100p w100p"></div></div>
+<br/><br/><br/><br/>
+
+<table class="w100p marginAuto textCenter"><tr><td>
+
+	<div id="welcomeHome" class="fixed ztop zleft zIndex100 twhiteBg boxShadow"></div>
+
+</td></tr></table>
+
+<div id="bodyUI" class="zIndex10">
+<div id="LOADING"></div>
+
+<div id="calender" class="relative">
+<table id="tdSizeIndex" class="w100p marginAuto textCenter"><tr><td class="middle">
+	<div id="detailHeight" class="scrollY relative twhiteBg w100p hide cursorDefault">
+		<div id="events" class="marginAuto">
+		</div>
+	</div><br/><br/><br/><br/><br/>
+</td></tr></table>
+</div>
+<div id="calculate">
+<table id="tableCalculate" class=" twhiteBg marginAuto cursorDefault relative"><tr>
+<td>
+		<div id="showCalculate" class="whiteBg">
+		</div>
+</td></tr></table>
+</div>
+
+
+</div>
+
+<footer brief = "bootscript">
+
+</footer>
+<div id="EmptyCallFooter"></div>
+</body>
+<script type="text/javascript" src="./EngineJS/berryscript.js"></script>
+<script type="text/javascript" src="./EngineJS/webScript.js"></script>
+
+</html>
