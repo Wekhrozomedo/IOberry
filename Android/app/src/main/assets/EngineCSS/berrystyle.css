@@ -1,0 +1,419 @@
+/*
+The MIT License (MIT) Copyright (c) 2014 IOberry
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in
+all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+THE SOFTWARE.
+
+*/
+
+body, .globalfont{
+	font-family:Helvetica,Arial,sans-serif;
+}
+.SegoeUI{
+	font-family:Helvetica,Arial,sans-serif;
+}
+.corbel{
+	font-family:Corbel;
+}
+body,.whiteBg,.detail{
+	background-color:#fff;
+}
+body{
+	color:#4d4d4d;
+	font-size:13px;
+	direction:ltr;
+	background-color:#fff;
+}
+div.backgroundImage{
+	//background:url(../images/sbg.jpg);
+	background-size:100% 100%;
+	background-repeat: no-repeat;
+	background-position:center;
+	-webkit-filter:blur(0px);
+}
+input,checkButton:active,img{
+	outline:none;
+}
+img.GoBackHome:active{
+	border:1px solid #eee;
+}
+.textShadowGrey{
+	text-shadow:0px 0px 10px #777;
+}
+.comic{
+	font-family:cursive, Comic Sans, Comic Sans MS;
+}
+.universalColor{
+	color:#4d4d4d;
+}
+.black{
+	color:#000;
+}
+.white{
+	color:#fff;
+}
+.blue{
+	color:#0692a6;
+}
+.fontSilver{
+	color:#aaa;
+}
+.fontGold{
+	color:#9DA031;
+}
+.fontRed{
+	color:#D82B0A;
+}
+.fontBlue{
+	color:#4af;
+}
+.fontGreen{
+	color:#70BD3B;
+}
+.fontYR{
+	color:#A58B5F;
+}
+td.middle{
+	vertical-align:middle;
+}
+td{
+	vertical-align:top;
+	padding:0px;
+}
+a{
+	text-decoration:none;
+}
+ul{
+	list-style-type:none;
+}
+li{
+	padding:0px;
+}
+.DisplayInline,li,ul{
+	display:inline;
+}
+.hide{
+	display:none;
+}
+.textShadow{
+	text-shadow:0px 0px 1px #777;
+}
+.bold{
+	font-weight:bold;
+}
+.font11{
+	font-size:11px;
+}
+.font13{
+	font-size:14px;
+}
+.font15{
+	font-size:15px;
+}
+.font20{
+	font-size:20px;
+}
+.font24{
+	font-size:24px;
+}
+.font30{
+	font-size:30px;
+}
+.font40{
+	font-size:40px;
+}
+.font60{
+	font-size:60px;
+}
+.fontVariant{
+	font-variant:small-caps;
+}
+.pointer,.cursorPointer{
+	cursor:pointer;
+}
+.pointer:active{
+	background-color:#eee;
+}
+
+.marginAuto{
+	margin:auto;
+}
+.marginTop20{
+	margin-top:-80px;
+}
+.fixed{
+	position:fixed;
+}
+.fixed45{
+	left:45%;
+}
+.absolute{
+	position:absolute;
+}
+.relative{
+	position:relative;
+}
+.right{
+	float:right;
+}
+.left,li{
+	float:left;
+}
+.top35p{
+	top:35%;
+}
+.ztop{
+	top:0px;
+}
+.top32{
+	top:29px;
+}
+.top20{
+	top:20px;
+}
+.top40{
+	top:40px;
+}
+.zleft{
+	left:0px;
+}
+.zright{
+	right:0px;
+}
+.zbottom{
+	bottom:0px;
+}
+.w93p{
+	width:93%;
+}
+.w100p{
+	width:100%;
+}
+.w50{
+	width:50px;
+}
+.w60{
+	width:60px;
+}
+.w75{
+	width:75px;
+}
+.w120{
+	width:120px;
+}
+.w150{
+	width:150px;
+}
+.w270{
+	width:270px;
+}
+.w320{
+	max-width:520px;
+}
+.w100{
+	width:100px;
+}
+.h50{
+	height:50px;
+}
+.h100{
+	height:100px;
+}
+.h100p{
+	height:100%;
+}
+.zIndex10{
+	z-index:10;
+}
+.zIndex100{
+	z-index:100;
+}
+.p3{
+	padding:3px;
+}
+.p5{
+	padding:5px;
+}
+.p10{
+	padding:15px 10px;
+}
+.p20_10{
+	padding:20px 10px;
+}
+.p010{
+	padding:0px 5px;
+}
+.p10Zw{
+	padding:10px 9px;
+}
+.p15{
+	padding:15px;
+}
+.p23{
+	padding:5px;
+}
+.scrollY{
+	overflow-y:scroll;
+}
+.hideScrollY{
+	overflow-y:hidden;
+}
+.scrollX{
+	overflow-x:scroll;
+}
+.NoScroll{
+	overflow:none;
+}
+.BorderGrey{
+	border:1px solid #bbb;
+	border-radius:3px;
+}
+.borderGrey{
+	border:1px solid #ddd;
+}
+.textCenter{
+	text-align:center;
+}
+.textLeft{
+	text-align:left;
+}
+.boxShadow{
+	box-shadow:0px 0px 5px #D3D7D4;
+}
+.boxShadowGrey{
+	box-shadow:0px 2px 8px #888;
+}
+.month:active{
+	background-color:#f8f8f8;
+	border-radius:6px;
+}
+.transparentBg{
+	background-color:transparent;
+}
+.YellowBg{
+	background-color:#B4B302;
+}
+.GreenBg{
+	background: #3DB643;
+}
+.tGreenBg{
+	background:rgba(10, 198, 20, 0.16);
+}
+.redBg{
+	background-color:#DA3721;
+}
+.tRedBg{
+	background:rgba(218, 55, 33, 0.16);
+}
+.blueBg{
+	background-color: #17A3B7;
+}
+.tGreyBg{
+	background-color:rgba(242, 246, 247, 0.9);
+}
+.tBlueBg{
+	background:rgba(23, 163, 183, 0.16);
+}
+.greyBg{
+	background-color:#f5f5f5;
+}
+.twhiteBg{
+	background-color:rgba(255,255,255,0.6);
+}
+.tLightYellowBg{
+	background:rgba(205, 195, 71, 0.06);
+}
+.tYellowBg{
+	background-color:rgba(205, 195, 71, 0.27);
+}
+.tBlack{
+	background-color:rgba(0,0,0,0.5);
+}
+.BlackBg{
+	background-color:#555;
+}
+.YRBg{
+	background-color:rgb(229, 222, 199);
+}
+.cursorDefault{
+	cursor:default;
+}
+.monthPi{
+	border-radius: 2px;
+}
+.monthPi:active{
+	background-color:#eee;
+}
+.detail{
+	border:1px solid #fafafa;
+}
+.borderNone{
+	border:none;
+}
+.borderBottom{
+	border-bottom:1px solid #ddd;
+}
+.inputBorder{
+	border:1px solid #ccc;
+	border-radius:1px;
+}
+.borderRadius5{
+	border-radius:5px;
+}
+.inputBorder:hover{
+	border:1px solid #9DA1C9;
+}
+.activeMonth:active{
+	background-color:rgba(255,255,255,0.6);
+	border:5px solid #fff;
+}
+.checkButton{
+	color: #888;
+	padding: 3px;
+	border-radius: 3px;
+	-moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+	background-color: #fafafa;
+	background-image: -o-linear-gradient(#17A3B7,#17A3B7);
+	background-image: -moz-linear-gradient(#17A3B7,#17A3B7);
+	background-image: -webkit-linear-gradient(#17A3B7,#17A3B7);
+	background-image: linear-gradient(#17A3B7,#17A3B7);
+	background-repeat: repeat-x;
+	border:1px solid #14a2a6;
+}
+.checkButton:hover{
+	border:1px solid #17A3B7;
+}
+.checkButton:active{
+	background-color: #fff;
+	background-image: -o-linear-gradient(#17A3B7,#17A3B7);
+	background-image: -moz-linear-gradient(#17A3B7,#17A3B7);
+	background-image: -webkit-linear-gradient(#17A3B7,#17A3B7);
+	background-image: linear-gradient(#17A3B7,#17A3B7);
+	border:1px solid #12a1a1;
+	background-repeat: repeat-x;
+}
+
+.listPer:active{
+	margin-top:-3px;
+}
+.dir{
+	font-size: 43px;
+	bottom: 19px;
+	color: #aaa;
+}
